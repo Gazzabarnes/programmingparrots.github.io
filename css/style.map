@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.scss"
+	],
+	"sourcesContent": [
+		"h1, h2, h3, h4, h5, h6, p, span {font-family: 'Noble', sans-serif;}\r\n\r\nheader {\r\n  background-color: #235FC1;\r\n  padding: 10px;\r\n  margin: 0;\r\n  text-align: center;\r\n  color: #F79715;\r\n  h1 {\r\n    font-size: 40px;\r\n    line-height: 20px;\r\n  }\r\n  nav {\r\n    ul {\r\n      list-style-type: none;\r\n      li {\r\n        display: inline-block;\r\n        margin-left: 7px;\r\n        background-color: #F79715;\r\n        padding: 7px;\r\n        border-radius: 4px;\r\n        a {\r\n          text-decoration: none;\r\n          color: #235FC1;\r\n        }\r\n      }\r\n      li:hover {\r\n        cursor: pointer;\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\nmain {\r\n  img {\r\n    max-width: 100%;\r\n  }\r\n}\r\n\r\n@media (min-width: 766px) {\r\n  main {\r\n    margin: auto;\r\n    width: 50%;\r\n  }\r\n}\r\n"
+	],
+	"mappings": ";AAAA,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,CAAC,EAAE,AAAA,IAAI,CAAC;EAAC,WAAW,EAAE,mBAAoB;CAAG;;;AAErE,AAAA,MAAM,CAAC;EACL,gBAAgB,EAAE,OAAQ;EAC1B,OAAO,EAAE,IAAK;EACd,MAAM,EAAE,CAAE;EACV,UAAU,EAAE,MAAO;EACnB,KAAK,EAAE,OAAQ;CAwBhB;;;AA7BD,AAME,MANI,CAMJ,EAAE,CAAC;EACD,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,IAAK;CACnB;;;AATH,AAWI,MAXE,CAUJ,GAAG,CACD,EAAE,CAAC;EACD,eAAe,EAAE,IAAK;CAevB;;;AA3BL,AAaM,MAbA,CAUJ,GAAG,CACD,EAAE,CAEA,EAAE,CAAC;EACD,OAAO,EAAE,YAAa;EACtB,WAAW,EAAE,GAAI;EACjB,gBAAgB,EAAE,OAAQ;EAC1B,OAAO,EAAE,GAAI;EACb,aAAa,EAAE,GAAI;CAKpB;;;AAvBP,AAmBQ,MAnBF,CAUJ,GAAG,CACD,EAAE,CAEA,EAAE,CAMA,CAAC,CAAC;EACA,eAAe,EAAE,IAAK;EACtB,KAAK,EAAE,OAAQ;CAChB;;;AAtBT,AAwBQ,MAxBF,CAUJ,GAAG,CACD,EAAE,CAaA,EAAE,AAAA,MAAM,CAAC;EACP,MAAM,EAAE,OAAQ;CACjB;;;AAKP,AACE,IADE,CACF,GAAG,CAAC;EACF,SAAS,EAAE,IAAK;CACjB;;AAGH,MAAM,EAAL,SAAS,EAAE,KAAK;;EACf,AAAA,IAAI,CAAC;IACH,MAAM,EAAE,IAAK;IACb,KAAK,EAAE,GAAI;GACZ",
+	"names": []
+}

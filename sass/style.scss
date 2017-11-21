@@ -1,0 +1,45 @@
+h1, h2, h3, h4, h5, h6, p, span {font-family: 'Noble', sans-serif;}
+
+header {
+  background-color: #235FC1;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  color: #F79715;
+  h1 {
+    font-size: 40px;
+    line-height: 20px;
+  }
+  nav {
+    ul {
+      list-style-type: none;
+      li {
+        display: inline-block;
+        margin-left: 7px;
+        background-color: #F79715;
+        padding: 7px;
+        border-radius: 4px;
+        a {
+          text-decoration: none;
+          color: #235FC1;
+        }
+      }
+      li:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+main {
+  img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 766px) {
+  main {
+    margin: auto;
+    width: 50%;
+  }
+}

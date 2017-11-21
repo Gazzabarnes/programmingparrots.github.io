@@ -1,1 +1,5 @@
-theme: jekyll-theme-architect
+title: Programming Parrots
+timezone: Europe/London
+permalink: /:slug
+#url: http://127.0.0.1:4000/
+url: https://programmingparrots.github.io/

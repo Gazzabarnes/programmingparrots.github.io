@@ -1,2 +1,2 @@
-# We are Programming Parrots
-Content coming soon
+# Programming Parrots website
+The site is built with Jekyll and uses SASS.

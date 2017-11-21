@@ -1,9 +1,25 @@
 /* line 1, C:/Jekyll-Sites/ProParrots/sass/style.scss */
-h1, h2, h3, h4, h5, h6, p, span {
+h1, h2, h3, h4, h5, h6, p, span, time {
   font-family: 'Noble', sans-serif;
 }
 
 /* line 3, C:/Jekyll-Sites/ProParrots/sass/style.scss */
+.button {
+  display: block;
+  background-color: #F79715;
+  padding: 9px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #235FC1;
+  text-align: center;
+}
+
+/* line 12, C:/Jekyll-Sites/ProParrots/sass/style.scss */
+.button:hover {
+  cursor: pointer;
+}
+
+/* line 16, C:/Jekyll-Sites/ProParrots/sass/style.scss */
 header {
   background-color: #235FC1;
   padding: 10px;
@@ -12,48 +28,50 @@ header {
   color: #F79715;
 }
 
-/* line 9, C:/Jekyll-Sites/ProParrots/sass/style.scss */
+/* line 22, C:/Jekyll-Sites/ProParrots/sass/style.scss */
 header h1 {
   font-size: 40px;
   line-height: 20px;
 }
 
-/* line 14, C:/Jekyll-Sites/ProParrots/sass/style.scss */
+/* line 27, C:/Jekyll-Sites/ProParrots/sass/style.scss */
 header nav ul {
   list-style-type: none;
 }
 
-/* line 16, C:/Jekyll-Sites/ProParrots/sass/style.scss */
+/* line 29, C:/Jekyll-Sites/ProParrots/sass/style.scss */
 header nav ul li {
   display: inline-block;
   margin-left: 7px;
-  background-color: #F79715;
-  padding: 7px;
-  border-radius: 4px;
 }
 
-/* line 22, C:/Jekyll-Sites/ProParrots/sass/style.scss */
-header nav ul li a {
-  text-decoration: none;
-  color: #235FC1;
-}
-
-/* line 27, C:/Jekyll-Sites/ProParrots/sass/style.scss */
-header nav ul li:hover {
-  cursor: pointer;
-}
-
-/* line 35, C:/Jekyll-Sites/ProParrots/sass/style.scss */
+/* line 38, C:/Jekyll-Sites/ProParrots/sass/style.scss */
 main img {
   max-width: 100%;
 }
 
 @media (min-width: 766px) {
-  /* line 41, C:/Jekyll-Sites/ProParrots/sass/style.scss */
+  /* line 44, C:/Jekyll-Sites/ProParrots/sass/style.scss */
   main {
     margin: auto;
     width: 50%;
   }
+}
+
+/* line 51, C:/Jekyll-Sites/ProParrots/sass/style.scss */
+.blog-item h1 {
+  font-size: 40px;
+}
+
+/* line 53, C:/Jekyll-Sites/ProParrots/sass/style.scss */
+.blog-item h1 a {
+  text-decoration: none;
+  color: blue;
+}
+
+/* line 57, C:/Jekyll-Sites/ProParrots/sass/style.scss */
+.blog-item h1 a:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=../css/style.map */
